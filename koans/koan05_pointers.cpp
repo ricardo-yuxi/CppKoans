@@ -66,7 +66,7 @@ void Koan05_pointers::they_are_not_almighty()
   // What do you need to change to make it work?
   // *wannabe_powerful = 21;
   ASSERT_EQUAL( an_int, *wannabe_powerful );
-  ASSERT_EQUAL( wannabe_powerful, &an_int );
+  ASSERT_EQUAL( wannabe_powerful, &an_int  );
 }
 
 // EOF
